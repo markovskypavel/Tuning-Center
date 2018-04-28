@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+            <property name="hibernate.connection.password">Root123</property>
+            <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=TuningCenter</property>
+            <property name="hibernate.connection.username">AutoShowroomUser</property>
+            <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>-->
+
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="show_sql">false</property>
+        <property name="format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!--<property name="hibernate.enable_lazy_load_no_trans">true</property>-->
+        <property name="current_session_context_class">thread</property>
+        <property name="c3p0.min_size">3</property>
+        <property name="c3p0.max_size">5</property>
+        <property name="c3p0.timeout">1800</property>
+
+        <mapping class="by.markovsky.tuningcenter.domain.entity.tuningservice.Automobile"/>
+        <mapping class="by.markovsky.tuningcenter.domain.entity.tuningservice.Center"/>
+        <mapping class="by.markovsky.tuningcenter.domain.entity.tuningservice.Client"/>
+        <mapping class="by.markovsky.tuningcenter.domain.entity.tuningservice.Order"/>
+        <mapping class="by.markovsky.tuningcenter.domain.entity.tuningservice.Service"/>
+        <mapping class="by.markovsky.tuningcenter.domain.entity.user.User"/>
+    </session-factory>
+</hibernate-configuration>
