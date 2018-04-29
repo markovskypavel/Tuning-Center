@@ -11,4 +11,6 @@ public interface URLQuery {
 
     String EXIST_CENTER = "?existcenter=true";
     String EXIST_SERVICE = "?existservice=true";
+
+    String REPEAT_POST = "?repeatpost=true";
 }

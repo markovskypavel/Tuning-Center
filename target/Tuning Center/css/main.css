@@ -1019,6 +1019,7 @@ aside.founder {
 
 /*Строка с ошибками*/
 .error {
+    padding-left: 10px;
     font-size: 15px;
     font-style: italic;
     color: red;

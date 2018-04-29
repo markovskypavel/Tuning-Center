@@ -6,6 +6,8 @@ import by.markovsky.tuningcenter.domain.entity.tuningservice.Order;
 import by.markovsky.tuningcenter.domain.entity.user.User;
 import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
 import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
+import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
+import by.markovsky.tuningcenter.infrastructure.exception.RepeatPostException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
 
@@ -27,19 +29,28 @@ public class DeleteOrderCommand implements Command {
     public Router execute(HttpServletRequest req, HttpServletResponse res) {
         Router router = new Router();
         HttpSession httpSession = req.getSession();
-        String page;
+        String page = JspPagePath.MAIN_PAGE;
 
         User user = (User) httpSession.getAttribute(AttributeParameters.USER);
-        Order order = (Order) httpSession.getAttribute(AttributeParameters.ORDER);
-        httpSession.removeAttribute(AttributeParameters.ORDER);
 
-        deleteOrderService.deleteOrder(order);
+        try {
+            page = user.isStatus()? JspPagePath.ADMIN_ORDER_PAGE : JspPagePath.ORDER_PAGE;
+
+            Order order = (Order) httpSession.getAttribute(AttributeParameters.ORDER);
+            if (order == null) {
+                throw new RepeatPostException();
+            }
+
+            deleteOrderService.deleteOrder(order);
+
+            httpSession.removeAttribute(AttributeParameters.ORDER);
+        } catch (RepeatPostException rpe) {
+            page += URLQuery.REPEAT_POST;
+        }
 
         if (user.isStatus()) {
-            page = JspPagePath.ADMIN_ORDER_PAGE;
             httpSession.setAttribute(AttributeParameters.ORDER_LIST, orderPageDataService.getAllOrders());
         } else {
-            page = JspPagePath.ORDER_PAGE;
             httpSession.setAttribute(AttributeParameters.ORDER_LIST, orderPageDataService.getAllOrdersByLogin(user.getLogin()));
         }
         httpSession.setAttribute(AttributeParameters.CENTER_LIST, orderPageDataService.getAllCenters());

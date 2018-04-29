@@ -8,6 +8,7 @@ import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
 import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
 import by.markovsky.tuningcenter.infrastructure.constant.RequestParameter;
 import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
+import by.markovsky.tuningcenter.infrastructure.exception.RepeatPostException;
 import by.markovsky.tuningcenter.infrastructure.exception.ValidationException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
@@ -32,19 +33,25 @@ public class EditCenterCommand implements Command {
         String page = JspPagePath.ADMIN_ORDER_PAGE;
         HttpSession httpSession = req.getSession();
 
-        String name = req.getParameter(RequestParameter.NAME);
-        String address = req.getParameter(RequestParameter.ADDRESS);
-        String telephone = req.getParameter(RequestParameter.TELEPHONE);
-        Center center = (Center) httpSession.getAttribute(AttributeParameters.CENTER);
-
         try {
+            Center center = (Center) httpSession.getAttribute(AttributeParameters.CENTER);
+            if (center == null) {
+                throw new RepeatPostException();
+            }
+
+            String name = req.getParameter(RequestParameter.NAME);
+            String address = req.getParameter(RequestParameter.ADDRESS);
+            String telephone = req.getParameter(RequestParameter.TELEPHONE);
             CenterValidator.isCenterFormValid(name, address, telephone);
+
             editCenterService.editCenter(center, name, address, Long.parseLong(telephone));
 
             httpSession.removeAttribute(AttributeParameters.CENTER);
             httpSession.setAttribute(AttributeParameters.CENTER_LIST, orderPageDataService.getAllCenters());
         } catch (ValidationException ve) {
             page += URLQuery.NOT_VALID_CENTER_FORM;
+        } catch (RepeatPostException rpe) {
+            page += URLQuery.REPEAT_POST;
         }
 
         router.setRouteType(Router.RouteType.FORWARD);

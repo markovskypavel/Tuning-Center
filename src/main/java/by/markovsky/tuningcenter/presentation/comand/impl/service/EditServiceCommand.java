@@ -8,6 +8,7 @@ import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
 import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
 import by.markovsky.tuningcenter.infrastructure.constant.RequestParameter;
 import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
+import by.markovsky.tuningcenter.infrastructure.exception.RepeatPostException;
 import by.markovsky.tuningcenter.infrastructure.exception.ValidationException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
@@ -32,20 +33,26 @@ public class EditServiceCommand implements Command {
         String page = JspPagePath.ADMIN_ORDER_PAGE;
         HttpSession httpSession = req.getSession();
 
-        String description = req.getParameter(RequestParameter.DESCRIPTION);
-        String price = req.getParameter(RequestParameter.PRICE);
-        String time = req.getParameter(RequestParameter.TIME);
-        String serviceType = req.getParameter(RequestParameter.SERVICE_TYPE);
-        Service service = (Service) httpSession.getAttribute(AttributeParameters.SERVICE);
-
         try {
+            Service service = (Service) httpSession.getAttribute(AttributeParameters.SERVICE);
+            if (service == null) {
+                throw new RepeatPostException();
+            }
+
+            String description = req.getParameter(RequestParameter.DESCRIPTION);
+            String price = req.getParameter(RequestParameter.PRICE);
+            String time = req.getParameter(RequestParameter.TIME);
+            String serviceType = req.getParameter(RequestParameter.SERVICE_TYPE);
             ServiceValidator.isServiceFormValid(price, time);
+
             editServiceService.editService(service, description, Integer.parseInt(price), serviceType, Integer.parseInt(time));
 
             httpSession.removeAttribute(AttributeParameters.SERVICE);
             httpSession.setAttribute(AttributeParameters.SERVICE_LIST, orderPageDataService.getAllServices());
         } catch (ValidationException ve) {
             page += URLQuery.NOT_VALID_SERVICE_FORM;
+        } catch (RepeatPostException rpe) {
+            page += URLQuery.REPEAT_POST;
         }
 
         router.setRouteType(Router.RouteType.FORWARD);

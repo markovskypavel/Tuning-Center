@@ -5,6 +5,8 @@ import by.markovsky.tuningcenter.application.service.order.ConfirmOrderService;
 import by.markovsky.tuningcenter.domain.entity.tuningservice.Order;
 import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
 import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
+import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
+import by.markovsky.tuningcenter.infrastructure.exception.RepeatPostException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
 
@@ -28,10 +30,19 @@ public class DeclineOrderCommand implements Command {
         String page = JspPagePath.ADMIN_ORDER_PAGE;
         HttpSession httpSession = req.getSession();
 
-        Order order = (Order) httpSession.getAttribute(AttributeParameters.ORDER);
-        confirmOrderService.declineOrder(order);
+        try {
+            Order order = (Order) httpSession.getAttribute(AttributeParameters.ORDER);
+            if (order == null) {
+                throw new RepeatPostException();
+            }
 
-        httpSession.removeAttribute(AttributeParameters.ORDER);
+            confirmOrderService.declineOrder(order);
+
+            httpSession.removeAttribute(AttributeParameters.ORDER);
+        } catch (RepeatPostException rpe) {
+            page += URLQuery.REPEAT_POST;
+        }
+
         httpSession.setAttribute(AttributeParameters.ORDER_LIST, orderPageDataService.getAllOrders());
         httpSession.setAttribute(AttributeParameters.CENTER_LIST, orderPageDataService.getAllCenters());
         httpSession.setAttribute(AttributeParameters.SERVICE_LIST, orderPageDataService.getAllServices());

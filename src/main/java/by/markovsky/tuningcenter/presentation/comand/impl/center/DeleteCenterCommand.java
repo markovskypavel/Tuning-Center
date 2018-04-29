@@ -2,16 +2,12 @@ package by.markovsky.tuningcenter.presentation.comand.impl.center;
 
 import by.markovsky.tuningcenter.application.service.OrderPageDataService;
 import by.markovsky.tuningcenter.application.service.center.DeleteCenterService;
-import by.markovsky.tuningcenter.application.service.center.GetCenterService;
-import by.markovsky.tuningcenter.application.service.order.DeleteOrderService;
-import by.markovsky.tuningcenter.application.service.order.GetOrderService;
 import by.markovsky.tuningcenter.domain.entity.tuningservice.Center;
-import by.markovsky.tuningcenter.domain.entity.tuningservice.Order;
-import by.markovsky.tuningcenter.domain.entity.user.User;
 import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
 import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
 import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
 import by.markovsky.tuningcenter.infrastructure.exception.ExistOrderException;
+import by.markovsky.tuningcenter.infrastructure.exception.RepeatPostException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
 
@@ -35,14 +31,20 @@ public class DeleteCenterCommand implements Command {
         String page = JspPagePath.ADMIN_ORDER_PAGE;
         HttpSession httpSession = req.getSession();
 
-        Center center = (Center) httpSession.getAttribute(AttributeParameters.CENTER);
+        try {
+            Center center = (Center) httpSession.getAttribute(AttributeParameters.CENTER);
+            if (center == null) {
+                throw new RepeatPostException();
+            }
 
-        try{
             deleteCenterService.deleteCenter(center);
+
             httpSession.removeAttribute(AttributeParameters.CENTER);
             httpSession.setAttribute(AttributeParameters.CENTER_LIST, orderPageDataService.getAllCenters());
-        }catch(ExistOrderException eoe){
+        } catch (ExistOrderException eoe) {
             page += URLQuery.EXIST_CENTER;
+        } catch (RepeatPostException rpe) {
+            page += URLQuery.REPEAT_POST;
         }
 
         router.setRouteType(Router.RouteType.FORWARD);

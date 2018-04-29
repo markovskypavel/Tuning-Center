@@ -105,6 +105,9 @@
             <c:if test="${param.notvalidorder == true}">
                 <span class="error">Неправильно заполнены некоторые поля</span>
             </c:if>
+            <c:if test="${param.repeatpost == true}">
+                <span class="error">Ошибка повторной отправки</span>
+            </c:if>
         </form>
     </section>
 

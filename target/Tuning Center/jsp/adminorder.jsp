@@ -104,6 +104,9 @@
                     <input type="submit" id="declineorder" value="Отменить">
                     <input type="submit" id="deleteorder" value="Удалить">
                 </c:if>
+                <c:if test="${param.repeatpost == true}">
+                    <span class="error">Ошибка повторной отправки</span>
+                </c:if>
             </form>
         </section>
     </c:if>
@@ -153,6 +156,9 @@
                 </c:if>
                 <c:if test="${param.existcenter == true}">
                     <span class="error">Центр уже существует в заказе</span>
+                </c:if>
+                <c:if test="${param.repeatpost == true}">
+                    <span class="error">Ошибка повторной отправки</span>
                 </c:if>
             </form>
         </section>
@@ -208,6 +214,9 @@
                 </c:if>
                 <c:if test="${param.existservice == true}">
                     <span class="error">Услуга уже существует в заказе</span>
+                </c:if>
+                <c:if test="${param.repeatpost == true}">
+                    <span class="error">Ошибка повторной отправки</span>
                 </c:if>
             </form>
         </section>
