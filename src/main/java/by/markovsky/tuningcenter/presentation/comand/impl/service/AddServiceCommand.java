@@ -1,8 +1,7 @@
 package by.markovsky.tuningcenter.presentation.comand.impl.service;
 
-import by.markovsky.tuningcenter.application.service.service.AddServiceService;
 import by.markovsky.tuningcenter.application.service.OrderPageDataService;
-import by.markovsky.tuningcenter.application.validation.CenterValidator;
+import by.markovsky.tuningcenter.application.service.service.AddServiceService;
 import by.markovsky.tuningcenter.application.validation.ServiceValidator;
 import by.markovsky.tuningcenter.domain.entity.tuningservice.Service;
 import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
@@ -45,7 +44,7 @@ public class AddServiceCommand implements Command {
             String price = req.getParameter(RequestParameter.PRICE);
             String time = req.getParameter(RequestParameter.TIME);
             String serviceType = req.getParameter(RequestParameter.SERVICE_TYPE);
-            ServiceValidator.isServiceFormValid(price, time);
+            ServiceValidator.isServiceFormValid(description, price, serviceType, time);
 
             addServiceService.addService(description, Integer.parseInt(price), serviceType, Integer.parseInt(time));
 

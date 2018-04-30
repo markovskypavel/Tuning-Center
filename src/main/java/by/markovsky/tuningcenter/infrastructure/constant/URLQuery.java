@@ -2,6 +2,7 @@ package by.markovsky.tuningcenter.infrastructure.constant;
 
 public interface URLQuery {
     String NOT_VALID_REGISTRATION = "?notvalidreg=true";
+    String NOT_VALID_AUTHORIZATION = "?notvalidauth=true";
     String NO_AUTHORIZATION = "?notauth=true";
     String NO_REGISTRATION = "?notreg=true";
 

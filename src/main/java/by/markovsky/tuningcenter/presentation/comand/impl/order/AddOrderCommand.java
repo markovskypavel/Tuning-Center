@@ -51,7 +51,7 @@ public class AddOrderCommand implements Command {
             String year = req.getParameter(RequestParameter.YEAR);
             String idCenter = req.getParameter(RequestParameter.CENTER_ID);
             String idService = req.getParameter(RequestParameter.SERVICE_ID);
-            OrderValidator.isOrderFormValid(name, surname, passport, telephone, model, year);
+            OrderValidator.isOrderFormValid(name, surname, passport, telephone, model, year, idCenter, idService);
 
             addOrderService.addOrder(name, surname, passport, Long.parseLong(telephone),
                     model, Integer.parseInt(year),

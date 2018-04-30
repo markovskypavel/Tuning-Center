@@ -43,7 +43,7 @@ public class EditServiceCommand implements Command {
             String price = req.getParameter(RequestParameter.PRICE);
             String time = req.getParameter(RequestParameter.TIME);
             String serviceType = req.getParameter(RequestParameter.SERVICE_TYPE);
-            ServiceValidator.isServiceFormValid(price, time);
+            ServiceValidator.isServiceFormValid(description, price, serviceType, time);
 
             editServiceService.editService(service, description, Integer.parseInt(price), serviceType, Integer.parseInt(time));
 

@@ -8,55 +8,113 @@
   <component name="ChangeListManager">
     <list default="true" id="e44fc6c2-c0d4-4443-a58d-2d24de0e2a12" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/CenterValidator.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/CenterValidator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/adminorder.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/adminorder.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/order.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/order.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center.war" afterPath="$PROJECT_DIR$/target/Tuning Center.war" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/CenterValidator.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/CenterValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/OrderValidator.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/OrderValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/ServiceValidator.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/ServiceValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/UserValidator.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/application/validation/UserValidator.class" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.class" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.class" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.class" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.class" />
       <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.class" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/css/main.css" afterPath="$PROJECT_DIR$/target/Tuning Center/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/jsp/adminorder.jsp" afterPath="$PROJECT_DIR$/target/Tuning Center/jsp/adminorder.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/Tuning Center/jsp/order.jsp" afterPath="$PROJECT_DIR$/target/Tuning Center/jsp/order.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.class" afterPath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.class" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.class" afterPath="$PROJECT_DIR$/target/Tuning Center/WEB-INF/classes/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/Tuning Center/jsp/main.jsp" afterPath="$PROJECT_DIR$/target/Tuning Center/jsp/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/OrderPageDataService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/center/AddCenterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/center/DeleteCenterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/center/EditCenterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/center/GetCenterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/order/AddOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/order/ConfirmOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/order/DeleteOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/order/EditOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/order/GetOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/service/AddServiceService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/service/DeleteServiceService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/service/EditServiceService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/service/GetServiceService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/user/UserAuthorizationService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/service/user/UserRegistrationService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/validation/CenterValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/validation/OrderValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/validation/ServiceValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/application/validation/UserValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/tuningservice/Automobile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/tuningservice/Center.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/tuningservice/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/tuningservice/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/tuningservice/Service.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/domain/entity/user/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/AttributeParameters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/JspPagePath.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/OrderStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/RegEx.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/RequestParameter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/UserStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/constant/UtilConstant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/DAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOAbstract.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOAutomobile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOCenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/AuthorizationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/DAOException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/ExistOrderException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/HibernateException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/RegistrationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/RepeatPostException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/exception/ValidationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/filter/EncodingFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/util/ConfigHibernateUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/util/HibernateUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/infrastructure/util/RegExValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/ActionFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/Command.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/CommandType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/CommandDecorator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/EmptyCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/RefreshCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/center/GetCenterCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/order/GetOrderCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/pageload/GetCenterFormCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/pageload/GetOrderFormCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/pageload/GetServiceFormCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/service/GetServiceCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/user/UserLogoutCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/comand/impl/user/UserRegistrationCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/controller/Router$RouteType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/controller/Router.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/tuningcenter.iml" afterPath="$PROJECT_DIR$/tuningcenter.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,101 +141,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AddOrderCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java">
+      <file leaf-file-name="AddServiceCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="68" column="124" lean-forward="false" selection-start-line="68" selection-start-column="124" selection-end-line="68" selection-end-column="124" />
+            <state relative-caret-position="369">
+              <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteOrderCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URLQuery.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java">
+      <file leaf-file-name="UserAuthorizationCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="37" />
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+              <caret line="20" column="109" lean-forward="false" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
+              <folding>
+                <element signature="method#isRegistrationFormValid#0;class#UserValidator#0" expanded="false" />
+                <element signature="method#isAuthorizationFormValid#0;class#UserValidator#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="1023" column="23" lean-forward="false" selection-start-line="1023" selection-start-column="23" selection-end-line="1023" selection-end-column="23" />
+            <state relative-caret-position="224">
+              <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditOrderCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java">
+      <file leaf-file-name="UserLogoutCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserLogoutCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
+            <state relative-caret-position="128">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRegistrationCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserRegistrationCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditCenterCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java">
+      <file leaf-file-name="EditServiceCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="108" />
+            <state relative-caret-position="365">
+              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApproveOrderCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java">
+      <file leaf-file-name="OrderValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+            <state relative-caret-position="352">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeclineOrderCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java">
+      <file leaf-file-name="ServiceValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+            <state relative-caret-position="416">
+              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -229,20 +290,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/gallery.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/pageload/RefreshCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/GetCenterCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/GetServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/CommandDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/RefreshCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/GetOrderCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/CenterValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/RegEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserRegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/user/UserRegistrationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/order/GetOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/exception/ExistOrderException.java" />
@@ -253,7 +307,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/modules/command.js" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/exception/RepeatPostException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/center/EditCenterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/center/DeleteCenterService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/adminorder.jsp" />
@@ -261,17 +314,25 @@
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/user/UserAuthorizationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/AddCenterCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/DeleteCenterCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/DeleteServiceCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/CenterValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserRegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java" />
       </list>
     </option>
   </component>
@@ -321,7 +382,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="269" />
     <option name="y" value="140" />
     <option name="width" value="960" />
@@ -374,8 +435,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,12 +468,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tuningcenter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tuningcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tuningcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -982,12 +1050,13 @@
       <workItem from="1524950326258" duration="39000" />
       <workItem from="1524998140882" duration="6233000" />
       <workItem from="1525004537632" duration="7878000" />
-      <workItem from="1525021145093" duration="7701000" />
+      <workItem from="1525021145093" duration="7793000" />
+      <workItem from="1525105131116" duration="1071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299926000" />
+    <option name="totallyTimeSpent" value="301089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,7 +1068,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1010,8 +1079,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36383682" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1021,14 +1090,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33296582" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.228125" sideWeight="0.49614114" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22916667" sideWeight="0.50385886" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1038,6 +1106,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1086,87 +1155,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="247" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="248" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="249" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="250" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="277" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties" />
-    <entry file="file://$PROJECT_DIR$/src/log4j2.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/dao/impl/DAOCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/exception/RepeatPostException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/ActionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/controller/TuningCentreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/gallery.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1179,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,15 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/GetOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,35 +1226,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/GetCenterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/service/OrderPageDataService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-928">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,20 +1293,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-          <folding>
-            <element signature="method#deleteCenter#0;class#DeleteCenterService#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/RefreshCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-448">
@@ -1373,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1323,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32736">
+          <caret line="1023" column="23" lean-forward="false" selection-start-line="1023" selection-start-column="23" selection-end-line="1023" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/util/RegExValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#182#183#0" expanded="false" />
+            <element signature="e#234#235#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,10 +1387,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="813">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/GetCenterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/GetOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1427,90 +1459,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/CenterValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/OrderValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/ServiceValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/EditServiceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="110" />
+        <state relative-caret-position="365">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/center/EditCenterCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/service/AddServiceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/AddOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="68" column="124" lean-forward="false" selection-start-line="68" selection-start-column="124" selection-end-line="68" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/ApproveOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeclineOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/EditOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/order/DeleteOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1023" column="23" lean-forward="false" selection-start-line="1023" selection-start-column="23" selection-end-line="1023" selection-end-column="23" />
+        <state relative-caret-position="369">
+          <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/infrastructure/constant/URLQuery.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/application/validation/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="109" lean-forward="false" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
+          <folding>
+            <element signature="method#isRegistrationFormValid#0;class#UserValidator#0" expanded="false" />
+            <element signature="method#isAuthorizationFormValid#0;class#UserValidator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserAuthorizationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="37" />
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserLogoutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/markovsky/tuningcenter/presentation/comand/impl/user/UserRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

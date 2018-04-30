@@ -83,6 +83,9 @@
                     <c:if test="${param.notauth == true}">
                         <span class="error">Неправильный логин или пароль</span>
                     </c:if>
+                    <c:if test="${param.notvalidauth == true}">
+                        <span class="error">Некорректное заполнение формы</span>
+                    </c:if>
                 </form>
             </div>
             <div class="reg">

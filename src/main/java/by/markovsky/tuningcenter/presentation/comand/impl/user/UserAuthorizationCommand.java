@@ -1,9 +1,14 @@
 package by.markovsky.tuningcenter.presentation.comand.impl.user;
 
 import by.markovsky.tuningcenter.application.service.user.UserAuthorizationService;
+import by.markovsky.tuningcenter.application.validation.UserValidator;
 import by.markovsky.tuningcenter.domain.entity.user.User;
-import by.markovsky.tuningcenter.infrastructure.constant.*;
+import by.markovsky.tuningcenter.infrastructure.constant.AttributeParameters;
+import by.markovsky.tuningcenter.infrastructure.constant.JspPagePath;
+import by.markovsky.tuningcenter.infrastructure.constant.RequestParameter;
+import by.markovsky.tuningcenter.infrastructure.constant.URLQuery;
 import by.markovsky.tuningcenter.infrastructure.exception.AuthorizationException;
+import by.markovsky.tuningcenter.infrastructure.exception.ValidationException;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.controller.Router;
 
@@ -28,10 +33,13 @@ public class UserAuthorizationCommand implements Command {
         String password = req.getParameter(RequestParameter.PASSWORD_AUTH);
 
         try {
+            UserValidator.isAuthorizationFormValid(login, password);
             User user = userAuthorizationService.userAuthorization(login, password);
 
             HttpSession httpSession = req.getSession();
             httpSession.setAttribute(AttributeParameters.USER, user);
+        } catch (ValidationException ve) {
+            page += URLQuery.NOT_VALID_AUTHORIZATION;
         } catch (AuthorizationException ae) {
             page += URLQuery.NO_AUTHORIZATION;
         }
