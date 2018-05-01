@@ -9,7 +9,7 @@ public class Router {
     }
 
     private RouteType routeType = RouteType.FORWARD;
-    private String pagePath;
+    private String pagePath = JspPagePath.MAIN_PAGE;
 
     //Setters
     public void setRouteType(RouteType routeType) {

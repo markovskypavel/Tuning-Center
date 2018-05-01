@@ -6,7 +6,7 @@ import java.util.Properties;
 public class ConfigHibernateUtil {
 
     private static final String PROPERTIES_PATH = "hibernate.properties";
-    private static Properties properties = new Properties();
+    private static final Properties properties = new Properties();
     static {
         try {
             properties.load(ConfigHibernateUtil.class.getClassLoader().getResourceAsStream(PROPERTIES_PATH));
@@ -14,6 +14,10 @@ public class ConfigHibernateUtil {
             ioe.printStackTrace();
         }
     }
+    private ConfigHibernateUtil() {
+
+    }
+
     public static String getProperty(String key) {
         return properties.getProperty(key);
     }
