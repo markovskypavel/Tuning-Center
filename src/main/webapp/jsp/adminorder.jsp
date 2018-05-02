@@ -94,7 +94,7 @@
                             <INPUT TYPE="radio" NAME="serviceid" VALUE="${item.id}"
                                    <c:if test="${sessionScope.order.service.id == item.id}">CHECKED</c:if>
                                    <c:if test="${sessionScope.order.service.id != item.id}">disabled</c:if>>
-                            <label><u>${item.type}</u>: ${item.description} ( ${item.price}$, ${item.time} недель )</label>
+                            <label><u>${item.type}</u>: ${item.description} ( ${item.price}$, ${item.time} нед. )</label>
                         </td></tr>
                     </c:forEach>
                 </table>
