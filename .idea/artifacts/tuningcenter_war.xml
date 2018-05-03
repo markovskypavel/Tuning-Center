@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="tuningcenter:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Tuning Center.war">
+    <root id="archive" name="tuningcenter.war">
       <element id="artifact" artifact-name="tuningcenter:war exploded" />
     </root>
   </artifact>
