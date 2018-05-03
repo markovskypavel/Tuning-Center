@@ -5,9 +5,8 @@ import by.markovsky.tuningcenter.infrastructure.constant.RequestParameter;
 import by.markovsky.tuningcenter.presentation.comand.ActionFactory;
 import by.markovsky.tuningcenter.presentation.comand.Command;
 import by.markovsky.tuningcenter.presentation.comand.impl.EmptyCommand;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
